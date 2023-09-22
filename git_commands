@@ -1,7 +1,8 @@
 #!/bin/bash
 dev_dir="$HOME/Desktop/my_designs" # replase with path where where your projects located
 cd "$dev_dir" || exit 1            # check if the folder exists
-repos=$(find ./* -type d -name ".git" | cut -d'/' -f2) # finding project folders 
+repos=$(find ./* -type d -name ".git" | cut -d'/' -f2) # finding project folders ( comment this line if line below is uncommented )
+# repos=$(find . -type d -name ".git" 2>/dev/null -exec dirname {} \;) # uncomment this line to find recusivle from dev_dir
 
 while true; do # While loop allows to run program while user did not make a choice
   echo ""
