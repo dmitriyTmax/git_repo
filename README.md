@@ -7,5 +7,5 @@ This simple script allows to do basic git commands
 2. go to the folder where "git_commands" is located
 3. make it executable: `chmod +x git_commands`
 4. open it with nano or other text editor: `nano git_commands`
-5. modify the fist line with path of your projects folder: `dev_dir="$HOME/Desktop/my_designs" # replase with path where where your projects located`
+5. modify the fist line with path of your projects folder: `dev_dir="$HOME/Desktop/my_designs"`
 6. run the script: `./git_commands` or `source git_commands`
